@@ -1,21 +1,74 @@
-/* #705200 navbar color
-#a67900 h2 color
-#6b3904 h1 color
-#635300 body color*/
-.top-logo{
-    text-align: center;
-}
-.body-style{
-    background-color: #635300;
+body{
+    background-color: #655300;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 .content{
-    padding: 50px;
-    margin: 50px;
     background-color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+.top-logo{
+    background-color: #a37b0b;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
 }
 .navbar{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+}
+.navbar-content{
+    background-color:#a37b0b;
+}
+.row{
+    margin: 0 auto;
+}
+@keyframes example {
+    from {background-color: #a67900;}
+    to {background-color: #655300;}
+}
+.card{
+    background-color:#a37b0b;
+    color: white;
+    font-size: 25px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: example;
+        animation-duration: 4s;  
+        animation-iteration-count: infinite;
+}
+.navbar-content .navbar-collapse {  
     background-color: #705200;
 }
-.nav{
-    background-color: #705200;
+.title-h1{
+    color: #6b3904;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Nerko One', cursive;
+}
+.title-h2{
+    color: #a67900;
+    padding: 25px;
+    font-family: 'Nerko One', cursive;
+}
+.content-text{
+    padding: 0 20px;
+    text-align: justify;
 }
