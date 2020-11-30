@@ -1,3 +1,21 @@
+/* #705200 navbar color
+#a67900 h2 color
+#6b3904 h1 color
+#635300 body color*/
 .top-logo{
     text-align: center;
+}
+.body-style{
+    background-color: #635300;
+}
+.content{
+    padding: 50px;
+    margin: 50px;
+    background-color: white;
+}
+.navbar{
+    background-color: #705200;
+}
+.nav{
+    background-color: #705200;
 }
